@@ -31,6 +31,9 @@ class CuentaBancaria{
     obtenerSaldo(){
         return this.#saldo
     }
+/**Como actividad complementaria crear una función que permita realizar el proceso de retirar un 
+monto que no exceda el saldo. 
+En la implementación realizar un retiro y después mostrar por consola el saldo. */
 
    retirar(monto){
         if (monto <= this.#saldo) {
